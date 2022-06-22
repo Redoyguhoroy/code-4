@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+
+      float celsius,fahrenhite;
+      printf("enter the fahrenhite is :\n");
+
+      scanf("%f",&fahrenhite);
+      celsius=((5* fahrenhite-160)/9);
+      printf("Temperature is celsius:%.2f\n",celsius);
+   return 0;
+}
